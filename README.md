@@ -10,6 +10,13 @@ A comprehensive machine learning project for predicting natural product compound
 
 🔗 **GitHub Repository**: [https://github.com/momustafahmed/np-compound-predictor](https://github.com/momustafahmed/np-compound-predictor)
 
+## 👩‍🔬 Author
+
+**Zhinya Kawa Othman**  
+Faculty of Pharmaceutical Sciences  
+Chulalongkorn University  
+Bangkok, Thailand
+
 ## 📋 Overview
 
 This project implements multiple machine learning models to predict whether natural product compounds are active against various biological targets (anticancer, antibacterial, antimalarial). The system includes:

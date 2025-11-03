@@ -59,3 +59,6 @@ dmypy.json
 # Model files (optional - uncomment if models are too large)
 # models/*.joblib
 # models/*.csv
+
+# Images - Keep logo
+!logo.jpg

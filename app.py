@@ -318,6 +318,9 @@ def main():
     st.markdown('<div class="main-header">🧬 Natural Product Compound Activity Predictor</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Machine Learning Dashboard for Drug Discovery</div>', unsafe_allow_html=True)
     
+    # Author info banner
+    st.info("👩‍🔬 **Developed by**: Zhinya Kawa Othman | Faculty of Pharmaceutical Sciences, Chulalongkorn University, Bangkok, Thailand")
+    
     # Load data
     try:
         df = load_data()
@@ -329,7 +332,17 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.image("https://img.icons8.com/fluency/96/000000/dna.png", width=100)
+        # Logo and author info
+        try:
+            st.image("logo.jpg", width=200)
+        except:
+            st.image("https://img.icons8.com/fluency/96/000000/dna.png", width=100)
+        
+        st.markdown("### 👩‍🔬 Author")
+        st.markdown("**Zhinya Kawa Othman**")
+        st.caption("Faculty of Pharmaceutical Sciences  \nChulalongkorn University  \nBangkok, Thailand")
+        st.markdown("---")
+        
         st.title("Navigation")
         
         page = st.radio(
