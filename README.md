@@ -1,6 +1,14 @@
 # 🧬 Natural Product Compound Activity Predictor
 
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.29.0-FF4B4B.svg)](https://streamlit.io)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.2-F7931E.svg)](https://scikit-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-2.0.3-blue.svg)](https://xgboost.readthedocs.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A comprehensive machine learning project for predicting natural product compound bioactivity with an interactive Streamlit dashboard.
+
+🔗 **GitHub Repository**: [https://github.com/momustafahmed/np-compound-predictor](https://github.com/momustafahmed/np-compound-predictor)
 
 ## 📋 Overview
 
@@ -10,6 +18,25 @@ This project implements multiple machine learning models to predict whether natu
 - **Modern Interactive Dashboard**: Built with Streamlit for data exploration, model analysis, and predictions
 - **Comprehensive Data Pipeline**: Automated preprocessing, feature engineering, and model evaluation
 - **Advanced Visualizations**: Interactive plots using Plotly for deep insights
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/momustafahmed/np-compound-predictor.git
+cd np-compound-predictor
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train models
+python train_models.py
+
+# Launch dashboard
+streamlit run app.py
+```
+
+Visit **http://localhost:8501** in your browser!
 
 ## 🚀 Features
 
